@@ -1,0 +1,212 @@
+.contact-gl {
+  background: #141414;
+  padding-top: 180px;
+  padding-bottom: 170px;
+  font-family: "poppins", sans-serif;
+}
+
+.contact-gl section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-gl section::before {
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #f4af00;
+}
+
+.ctc-body .container {
+  position: relative;
+  width: 1100px;
+  height: 550px;
+  display: flex;
+  z-index: 1000;
+}
+
+.ctc-body .contact-info {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 350px;
+  height: calc(100% - 80px);
+  background: #141414;
+  z-index: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ctc-body .contact-info h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 45px;
+}
+
+.ctc-body .contact-info ul.inf {
+  position: relative;
+  margin: 20px 0;
+}
+
+.ctc-body .contact-info ul.inf li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+  align-items: flex-start;
+}
+
+.ctc-body .contact-info ul.inf li span:nth-child(1) {
+  width: 30px;
+  min-width: 30px;
+}
+
+.ctc-body .contact-info ul.inf li span:nth-child(1) img {
+  max-width: 100%;
+  filter: invert(1);
+}
+
+.ctc-body .contact-info ul.inf li span:nth-child(2) {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.ctc-body .contact-info ul.sci {
+  position: relative;
+  display: flex;
+}
+
+.ctc-body .contact-info ul.sci li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.ctc-body .contact-info ul.sci li i {
+  filter: invert(1);
+}
+
+.ctc-body .ctcform {
+  position: absolute;
+  padding-left: 250px;
+  margin-left: 150px;
+  width: calc(100% - 400px);
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+}
+
+.ctc-body .ctcform h2 {
+  color: #0f3959;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ctc-body .ctcform .frbx {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.ctc-body .ctcform .frbx .inbx {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.ctc-body .ctcform .frbx .inbx.w50 {
+  width: 47%;
+}
+
+.ctc-body .ctcform .frbx .inbx.w100 {
+  width: 100%;
+}
+
+.ctc-body .ctcform .frbx .inbx input,
+.ctc-body .ctcform .frbx .inbx textarea {
+  width: 90%;
+  resize: none;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #777;
+}
+
+.ctc-body .ctcform .frbx .inbx textarea {
+  height: 120px;
+}
+
+.ctc-body .ctcform .frbx .inbx span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  pointer-events: none;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.ctc-body .ctcform .frbx .inbx input:focus ~ span,
+.ctc-body .ctcform .frbx .inbx input:valid ~ span,
+.ctc-body .ctcform .frbx .inbx textarea:focus ~ span,
+.ctc-body .ctcform .frbx .inbx textarea:valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #f4af00;
+  font-weight: 500;
+}
+
+.ctc-body .ctcform .frbx .inbx button {
+  position: relative;
+  cursor: pointer;
+  background: #f4af00;
+  color: #fff;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.ctc-body .ctcform .frbx .inbx button:hover {
+  background: #141414;
+}
+
+@media (max-width: 1200px) {
+  .ctc-body .container {
+    width: 90%;
+    min-width: auto;
+    margin: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  }
+  .ctc-body .contact-info {
+    top: 0;
+    height: 610px;
+    position: relative;
+    box-shadow: none;
+  }
+  .ctc-body .ctcform {
+    position: relative;
+    width: calc(100% - 350px);
+    padding-left: 0;
+    margin-left: 0;
+    padding: 40px;
+    height: 550px;
+    box-shadow: none;
+  }
+}

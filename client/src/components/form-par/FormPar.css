@@ -1,0 +1,63 @@
+.frm-input input {
+  display: flex;
+  width: 70%;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+select {
+  display: flex;
+  width: 70%;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.par-form {
+  display: flex;
+  padding: 150px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+label {
+  color: #f4af00;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.input-par {
+  background-color: #141414;
+}
+
+.title-par {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #f4af00;
+}
+
+.add-event-par {
+  width: 35%;
+  height: 48px;
+  background: #282e33;
+  border-radius: 20px;
+  border: 3px solid #f4af00;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #f4af00;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-add-par {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.gl-form {
+  display: flex;
+  align-items: center;
+}

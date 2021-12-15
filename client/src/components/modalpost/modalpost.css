@@ -1,0 +1,73 @@
+.btn-modal-post button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.modal-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.overlay-post {
+  background: rgba(49, 49, 49, 0.8);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.modal-content-post {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.modal-content-post h2 {
+  color: black;
+}
+
+.modal-content-post span {
+  color: black;
+  font-weight: bold;
+}
+
+.modal-content-post input {
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-times-circle {
+  font-size: 20px;
+}
+
+.save-btn {
+  border: none;
+  cursor: pointer;
+}
+.fa-save {
+  font-size: 20px;
+}
+
+.btn-post-gl button {
+  width: 10px;
+}

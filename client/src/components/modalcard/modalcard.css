@@ -1,0 +1,74 @@
+.btn-modal-card {
+  cursor: pointer;
+}
+
+.modal-card,
+.overlay-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay-card {
+  background: transparent;
+}
+.modal-content-card {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-btn-card {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-times-circle {
+  font-size: 20px;
+}
+
+.save-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.fa-save {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.input-card input {
+  width: 100%;
+  background: #1414144f;
+  border-radius: 10px;
+}
+
+.btn-modal-card {
+  border: none;
+  background: white;
+}
+
+.btn-modal-card i {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(52, 207, 52);
+}

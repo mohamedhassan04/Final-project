@@ -1,0 +1,143 @@
+.post-gl {
+  background: #141414;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.cl-post {
+  background: white;
+  width: 35%;
+  height: 123px;
+  border-radius: 15px;
+}
+
+.post-body {
+  display: flex;
+  justify-content: center;
+}
+
+.input-post-bg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.input-post-bg input {
+  padding: 7px 30px 7px 10px;
+  width: calc(100% - 40px);
+  border-radius: 15px;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.input-post-bg {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.fa-smile-beam {
+  cursor: pointer;
+  color: #141414;
+  font-size: 25px;
+  top: 8px;
+  right: 5px;
+}
+
+.input-post-bg input::placeholder {
+  color: rgba(128, 128, 128, 0.652);
+}
+
+.input-post-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-post-2 button {
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.fa-images {
+  font-size: 20px;
+  color: rgb(68, 189, 68);
+}
+
+.input-post-2 span {
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+.input-post-bg button {
+  margin-right: 20px;
+  border: none;
+  background: #f4af00;
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*post comment*/
+
+.input-post-bg-2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.input-post-bg-2 input {
+  width: 60%;
+  height: 100%;
+  outline: none;
+  background: rgba(128, 128, 128, 0.083);
+  border-radius: 10px;
+}
+
+.input-post-bg-2 input::placeholder {
+  color: rgba(128, 128, 128, 0.652);
+}
+
+.input-post-bg-2 button {
+  margin-right: 20px;
+  border: none;
+  background: #f4af00;
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.post-added {
+  display: flex;
+  justify-content: center;
+}
+
+.pub-add {
+  display: flex;
+  margin-left: 30px;
+  color: azure;
+}
+
+.emojis {
+  background-color: red;
+}
+
+.emojis > * {
+  background-color: green;
+}

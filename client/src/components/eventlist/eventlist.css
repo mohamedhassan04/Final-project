@@ -1,0 +1,9 @@
+.list-eve {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around !important;
+  background: #141414;
+}

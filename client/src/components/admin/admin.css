@@ -1,0 +1,259 @@
+.admin-global {
+  background-color: #141414;
+  padding-top: 120px;
+  padding-bottom: 200px;
+  font-family: "Poppins", sans-serif;
+}
+
+.side-menu li {
+  list-style: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  color: white;
+}
+
+.title-admin {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 5px;
+  border-bottom: 2px solid #999;
+}
+
+table {
+  padding: 5px;
+  overflow: auto;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+th {
+  border-bottom: 1px solid #999;
+}
+
+td {
+  border-bottom: 1px solid #999;
+}
+
+.title-admin h2 {
+  color: #999;
+}
+
+.side-menu {
+  background: #f4af00;
+  width: 20vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu .brand-name {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-menu li:hover {
+  background: white;
+  color: #f4af00;
+}
+
+.admin-global .admin-body .container-admin {
+  position: absolute;
+  right: -17px;
+  top: 120px;
+  width: 80vw;
+  height: 100vh;
+  background: #f1f1f1;
+}
+
+.admin-global .admin-body .container-admin .header-admin {
+  width: 80vw;
+  height: 10vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.admin-global .admin-body .container-admin .header-admin .nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.admin-global .admin-body .container-admin .header-admin .nav .search-admin {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.admin-global
+  .admin-body
+  .container-admin
+  .header-admin
+  .nav
+  .search-admin
+  input[type="text"] {
+  border: none;
+  background: #f1f1f1;
+  padding: 10px;
+  width: 50%;
+  outline: none;
+}
+
+.admin-global
+  .admin-body
+  .container-admin
+  .header-admin
+  .nav
+  .search-admin
+  button {
+  width: 40px;
+  height: 44px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-global
+  .admin-body
+  .container-admin
+  .header-admin
+  .nav
+  .search-admin
+  button
+  i {
+  font-size: 30px;
+}
+
+.container-admin .content-admin {
+  position: relative;
+  min-height: 90vh;
+}
+
+.container-admin .content-admin .cards-admin {
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-admin .content-admin .cards-admin .card-admin {
+  width: 250px;
+  height: 150px;
+  background: white;
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-admin .content-admin .cards-admin .card-admin .box-admin h3 {
+  color: #999;
+}
+
+.container-admin .content-admin .cards-admin .card-admin i {
+  color: #f4af00;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.container-admin .content-admin .content-2-admin {
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.container-admin .content-admin .content-2-admin .event-admin {
+  min-height: 50vh;
+  flex: 5;
+  background: white;
+  margin: 0 25px 25px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+
+.container-admin .content-admin .content-2-admin .user-dash-admin {
+  flex: 4;
+  background: white;
+  height: 50vh;
+  margin: 0 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.app-admin-btn {
+  background: rgb(26, 174, 26);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.dec-admin-btn {
+  background: rgb(208, 46, 46);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+.btn-rem-ad button {
+  background: rgb(216, 48, 48);
+  border: none;
+  border-radius: 10px;
+  color: #f1f1f1;
+}
+
+.btn-rem-ad i {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1050px) {
+  .side-menu li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .side-menu li span {
+    display: none;
+  }
+  .side-menu {
+    align-items: center;
+  }
+  .side-menu li i {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  .brand-name h1 {
+    font-size: 16px;
+  }
+  .container-admin .content-admin .cards-admin {
+    justify-content: center;
+  }
+}

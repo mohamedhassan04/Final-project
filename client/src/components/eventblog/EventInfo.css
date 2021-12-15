@@ -1,0 +1,91 @@
+.bg-info {
+  background-color: #141414;
+}
+
+.title-info {
+  color: white;
+  padding: 8px;
+}
+
+.title-info h2 {
+  color: #f4af00;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.title-info h3 {
+  margin-top: 0;
+  text-transform: capitalize;
+}
+.info-gl {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  padding-left: 70px;
+}
+
+.para-info {
+  font-size: 14px;
+}
+
+.info-sec {
+  display: flex;
+  width: 50%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+}
+
+.dur-dis-info {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dur-dis-info h4 {
+  color: #f4af00;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.social-info > * {
+  display: flex;
+  width: 200%;
+  justify-content: space-around;
+}
+
+.social-info h4 {
+  color: #f4af00;
+}
+
+.register-fel {
+  display: flex;
+  padding-top: 10px;
+}
+
+.btn-gl-gl-gl button {
+  width: 160px;
+  height: 38px;
+  color: white;
+  font-weight: bold;
+  background: rgba(201, 35, 35, 0.56);
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+.hhh {
+  color: rgb(226, 216, 216);
+  font-weight: 400;
+}
+
+.hhhh {
+  color: rgb(226, 216, 216);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dis-eve {
+  display: flex;
+}

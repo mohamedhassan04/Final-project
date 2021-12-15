@@ -1,0 +1,63 @@
+.input-dec input {
+  width: 40%;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.org-form {
+  padding: 150px;
+}
+
+label {
+  color: #f4af00;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.input-org {
+  background-color: #141414;
+}
+
+.title-org {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #f4af00;
+}
+
+.add-event {
+  width: 15%;
+  height: 48px;
+  background: #282e33;
+  border-radius: 20px;
+  border: 3px solid #f4af00;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #f4af00;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.input-dec {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.drop-form {
+  width: 40%;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.input-dec .form-img-add {
+  background: transparent;
+  color: white;
+}

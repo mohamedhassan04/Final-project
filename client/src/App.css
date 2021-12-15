@@ -1,0 +1,31 @@
+.bg-main {
+  background-image: url("./final\ project\ design\ we\ run/smoke background.png");
+  background-size: cover;
+  height: 115vh !important;
+}
+.bg-main-t {
+  background-image: url("./final\ project\ design\ we\ run/smoke background.png");
+  background-size: cover;
+  width: 100% !important;
+  height: 619px;
+}
+
+.bg-test {
+  width: 100%;
+  background-image: url("./final\ project\ design\ we\ run/blackbg.png");
+  height: 100vh !important;
+  background-size: cover;
+}
+
+.bg-tes {
+  width: 100%;
+  background-image: url("./final\ project\ design\ we\ run/background3.png");
+  height: 50vh !important;
+  background-size: cover;
+}
+
+.home {
+  width: 100%;
+  height: 1500px;
+  background-color: white;
+}

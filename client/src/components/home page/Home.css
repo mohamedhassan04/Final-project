@@ -1,0 +1,258 @@
+.slogan {
+  display: flex;
+  justify-content: center;
+  padding-top: 132px;
+}
+
+.btn-sav {
+  background-color: #f4af00;
+  border-radius: 30px;
+  color: white;
+  width: 132px;
+  height: 33px;
+  border: none;
+}
+
+.savoir {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -200px;
+  margin-right: 40px;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.title h1 {
+  color: #f4af00;
+}
+
+.title-ab p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title-ab h1 {
+  color: #f4af00;
+}
+
+.sec-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.sec-home > * {
+  width: 45%;
+  padding: 60px;
+}
+
+.social {
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  left: 120px;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social::before {
+  content: "";
+  width: 2px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  top: -80px;
+  left: 22px;
+}
+
+.social::after {
+  content: "";
+  width: 2px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  bottom: -80px;
+  left: 22px;
+}
+
+video {
+  border-radius: 30px;
+}
+
+.title-ab h5 {
+  width: 60%;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 10px;
+}
+
+.btn-lea {
+  background-color: #f4af00;
+  border-radius: 30px;
+  color: white;
+  width: 132px;
+  height: 33px;
+  border: none;
+  margin-top: 35px;
+}
+
+.title-fea p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title-fea h1 {
+  color: #f4af00;
+}
+
+.title-par h3 {
+  color: white;
+}
+
+.title-par p {
+  font-size: 12px;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+}
+
+.th-home {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 62px;
+  align-items: center;
+}
+
+.th-home .slogan-2 {
+  margin-right: 120px;
+}
+
+.title-para {
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-par {
+  display: flex;
+  justify-content: space-between;
+}
+
+.descrip {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tuto {
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+.tuto svg {
+  padding-left: 42px;
+}
+.tuto h1 {
+  color: white;
+  text-align: center;
+}
+
+.tuto h3 {
+  color: white;
+  text-align: center;
+}
+
+.bottom-gl {
+  padding-top: 20px;
+  padding-bottom: 150px;
+  background: #141414;
+  user-select: none;
+}
+
+.bottom-gl h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f4af00;
+}
+
+[type="radio"] {
+  display: none;
+}
+
+#slider {
+  height: 35vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+#slider label {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4,
+#s2:checked ~ #slide5,
+#s3:checked ~ #slide1,
+#s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-30%, 0, -200px);
+}
+
+#s1:checked ~ #slide5,
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2,
+#s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-15%, 0, -100px);
+}
+
+#s1:checked ~ #slide1,
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide2,
+#s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(0, 0, 0px);
+}
+
+#s1:checked ~ #slide2,
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide3,
+#s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(15%, 0, -100px);
+}
+
+#s1:checked ~ #slide3,
+#s2:checked ~ #slide4,
+#s3:checked ~ #slide5,
+#s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(30%, 0, -200px);
+}
